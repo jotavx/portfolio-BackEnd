@@ -6,3 +6,4 @@ FROM amazoncorretto:11-alpine-jdk
 MAINTAINER JV
 COPY target/jv-0.0.1-SNAPSHOT.jar jv-0.0.1-SNAPSHOT.jar
 ENTRYPOINT ["java","-jar","/jv-0.0.1-SNAPSHOT.jar"]
+EXPOSE 8080
