@@ -4,5 +4,5 @@
 
 FROM amazoncorretto:8-alpine-jdk
 MAINTAINER JV
-COPY target/jv-0.0.1-SNAPSHOT jv-0.0.1-SNAPSHOT
-ENTRYPOINT ["java","-jar","/jv-0.0.1-SNAPSHOT"]
+COPY target/jv-0.0.1-SNAPSHOT.jar jv-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","/jv-0.0.1-SNAPSHOT.jar"]
